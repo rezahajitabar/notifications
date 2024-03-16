@@ -25,7 +25,7 @@ export default class Navbar extends Component {
             <div className='container-main'>
              <h4>News</h4>
              {this.state.Notification.length >= 5 && 
-             <span>123</span>
+             <span>{this.state.Notification.length}</span>
              }
           </div>
           </div>
