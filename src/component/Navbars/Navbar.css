@@ -1,3 +1,29 @@
-.kos{
-    background-color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: linear-gradient(red,rgb(128, 98, 98),blue,aqua);
+    color: #fff;
+    height: 50px;
+    display: flex;
+}
+
+.container-main > h4{
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    color: #aaa;
+    display: flex;
+}
+
+.container-main > span{
+    margin-left: 60px;
+    margin-top: -30px;
+    display: flex;
+    background-color: orange;
+    padding: 3px 4px;
+    border-radius: 15px;
 }
